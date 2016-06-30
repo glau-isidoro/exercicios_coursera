@@ -47,5 +47,16 @@ public class Pizza {
 	public int getQuantidadeDeIngredientes() {
 		return quantidadeDeIngredientes;
 	}
+	
+	public static void mostrarQtdDeCadaIngrediente() {
+		for (Map.Entry<String, Integer> entry : mapaDeIngredientes.entrySet()) {
+		    System.out.println(entry.getKey() + " = " + entry.getValue());
+		}
+	}
+	
+	public static void zeraIngredientes() {
+		totalIngredientes = 0;
+		mapaDeIngredientes.clear();
+	}
 
 }
