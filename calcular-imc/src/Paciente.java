@@ -42,7 +42,7 @@ public class Paciente {
 			resultado = "obesidade grau II.";
 		}
 		if(imc >= 40) {
-			resultado = "obesidade grau III (obesidade mórbida)";
+			resultado = "obesidade grau III (obesidade mórbida).";
 		}
 		
 		return resultado;
