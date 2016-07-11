@@ -3,7 +3,7 @@ public class Autoridade {
 	
 	private String nome;
 	private String sobrenome;
-	FormatadorNome formatador;
+	private FormatadorNome formatador;
 	
 	
 	public Autoridade(String nome, String sobrenome, FormatadorNome formatador) {

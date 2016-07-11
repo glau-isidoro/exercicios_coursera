@@ -1,20 +1,20 @@
 
 public class Respeitoso implements FormatadorNome {
 
-	private String genero;
+	private String ehHomem;
 	
 	
 	public Respeitoso(boolean homem) {
 		if(homem == true){
-			genero = "Sr.";
+			ehHomem = "Sr. ";
 		} else {
-			genero = "Sra.";
+			ehHomem = "Sra. ";
 		}
 	}
 
 	@Override
 	public String formatarNome(String nome, String sobrenome) {
-		return genero + " " + sobrenome;
+		return ehHomem + sobrenome;
 	}
 
 }
