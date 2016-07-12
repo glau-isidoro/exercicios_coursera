@@ -10,7 +10,7 @@ public class Pessoa {
 		dataDeNascimento.set(ano, mes, dia);
 	}
 	
-	//construtor que fixa uma data pra usar nos testes
+	//construtor que fixa uma data pra usar nos testes de idade
 	public Pessoa(int dia, int mes, int ano, boolean isTest) {
 		dataDeNascimento.set(ano, mes, dia);
 		if(isTest == true) {
