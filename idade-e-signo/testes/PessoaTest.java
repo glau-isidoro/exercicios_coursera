@@ -13,7 +13,7 @@ public class PessoaTest {
 	
 	@Test
 	public void testIdadeJovem() {
-		Pessoa jovem = new Pessoa(15, 8, 1996, true);
+		Pessoa jovem = new Pessoa(30, 9, 1996, true);
 		assertEquals(19, jovem.getIdade());
 	}
 	
@@ -168,6 +168,7 @@ public class PessoaTest {
 	public void testPrimeiroDiaPeixes() {
 		Pessoa pisciano = new Pessoa(20, 2, 1987);
 		assertEquals("Peixes", pisciano.getSigno());
+		
 	}
 	@Test
 	public void testUltimoDiaPeixes() {
